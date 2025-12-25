@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Hae Naing Lay | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><span>S</span>HNL</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <img src="images/img1.jpg" alt="Profile" class="profile-img">
+        </div>
+        <div class="hero-right">
+            <p class="intro">Hi, I'm <span class="typing-container"><span id="typing-text"></span><span
+                        class="cursor"></span></span></p>
+            <h1 class="hero-name">Sai Hae Naing Lay</h1>
+            <p class="hero-description">
+                Computer Engineering student and AI/ML learner. I work on practical projects and I’m learning web and
+                app development to make my work easy to use and easy to share.
+            </p>
+            <div class="hero-buttons">
+                <a href="Sai_Hae_Naing_Lay_CV.pdf" class="btn" target="_blank" rel="noopener noreferrer">
+                    View Resume
+                </a>
+
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sai-hae-naing-lay-784866288" target="_blank"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AnitaMaxWynn901" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/layhn._0?igsh=dTlhbmsxeHliOXR4" target="_blank"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Sai Hae Naing Lay, a Computer Engineering student based in Thailand. I enjoy learning and
+                        building practical systems through hands-on projects.</p>
+                    <p>My main interests are AI/ML and computer vision, and I’m currently learning web and app
+                        development to create simple, usable interfaces for my work.</p>
+                    <p>I like turning real-world data into useful tools by building clean pipelines, clear UI, and
+                        solutions that can be tested in practice.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">YOLO</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Flask</span>
+                            <!-- <span class="skill-tag">React</span> -->
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <!-- <span class="skill-tag">Git</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/img1.jpg" alt="About Image" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- 1) Room Reservation -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/room-reserve.PNG" alt="Room Reservation Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Room Reservation Website</h3>
+                        <p class="project-meta">Team Project • HTML, CSS, JavaScript</p>
+                        <p class="project-desc">
+                            Web-based room reservation system with clean UI and basic booking flow.
+                        </p>
+                        <a class="project-link" href="https://github.com/lucasW289/roomReservation" target="_blank"
+                            rel="noopener">View Project</a>
+                    </div>
+                </article>
+
+                <!-- 2) Book Borrowing -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/book-borrow.PNG" alt="Book Borrowing Mobile App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Book Borrowing Mobile App</h3>
+                        <p class="project-meta">Team Project • Flutter</p>
+                        <p class="project-desc">
+                            Mobile app UI for login, book list, and borrow request with simple user flow.
+                        </p>
+                        <a class="project-link" href="https://github.com/AnitaMaxWynn901/flutter_basics" target="_blank"
+                            rel="noopener">View Project</a>
+                    </div>
+                </article>
+
+                <!-- 3) Voice-Controlled Ads -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/voice-controlled_ads.webp" alt="Voice-Controlled Advertisement Display System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Voice-Controlled Advertisement Display System</h3>
+                        <p class="project-meta">Internship Project • Python, SpeechRecognition, Flask</p>
+                        <p class="project-desc">
+                            Voice commands to play/stop/switch ads in real time with auto demo fallback mode.
+                        </p>
+                        <a class="project-link" href="https://github.com/AnitaMaxWynn901/mini_project" target="_blank"
+                            rel="noopener">View Project</a>
+                    </div>
+                </article>
+
+                <!-- 4) Smart Retail Face Recognition -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/face-recognition.jpg" alt="Smart Retail Face Recognition System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Retail Face Recognition System</h3>
+                        <p class="project-meta">Internship Project • AI cameras, Face Detection/Recognition, Dashboard
+                        </p>
+                        <p class="project-desc">
+                            Detects faces and matches IDs to a database, showing “matched” or “no data” on a dashboard.
+                        </p>
+                        <a class="project-link" href="https://github.com/AnitaMaxWynn901/intern_project" target="_blank"
+                            rel="noopener">View Project</a>
+                    </div>
+                </article>
+
+                <!-- 5) Human Action Recognition (Image Processing) -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/humanaction-reco.PNG" alt="Human Action Recognition Image Processing">
+                    </div>
+                    <div class="project-content">
+                        <h3>Human Action Recognition (Image Processing)</h3>
+                        <p class="project-meta">Team Project • Image Processing, Python, Mediapipe</p>
+                        <p class="project-desc">
+                            Human action recognition system using classical image processing techniques.
+                            Includes preprocessing, segmentation, feature extraction, and classification
+                            with a Python-based workflow.
+                        </p>
+                        <a class="project-link" href="https://github.com/AnitaMaxWynn901/Image_Processing_GUI-app"
+                            target="_blank" rel="noopener">
+                            View Project
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 6) Cow Behavior Recognition for Estrus Monitoring -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/Result.png" alt="Behavior Recognition for Estrus Monitoring in Cattle">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Behavior Recognition for Estrus Monitoring in Cattle</h3>
+
+                        <p class="project-meta">
+                            Senior Project • Computer Vision, YOLOv8 / YOLOv11
+                        </p>
+
+                        <p class="project-desc">
+                            Developed a computer vision system to classify cow behaviors
+                            (standing, lying, grazing, mounting) from video data to support
+                            automated estrus detection. Built an end-to-end pipeline including
+                            dataset construction, Roboflow annotation, YOLO training, and
+                            evaluation on real farm CCTV footage.
+                        </p>
+
+                        <a class="project-link" href="Presentation_Slides.pdf" target="_blank" rel="noopener">
+                            View Project
+                        </a>
+                    </div>
+                </article>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">Notes</h2>
+
+            <div class="blog-grid">
+
+                <!-- 1) Room Reservation -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/room-reserve.PNG" alt="Room Reservation Website">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Room Reservation Website: what I learned building the booking flow</h3>
+                        <p class="blog-meta">Team Project • HTML, CSS, JavaScript</p>
+                        <p>
+                            Notes on designing a simple reservation UI, validating inputs, and keeping the layout
+                            responsive.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 2) Book Borrowing -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/book-borrow.PNG" alt="Book Borrowing Mobile App">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Book Borrowing App UI: clean screens & user flow in Flutter</h3>
+                        <p class="blog-meta">Team Project • Flutter</p>
+                        <p>
+                            How I organized login, book list, and borrow request screens to keep the app simple and
+                            readable.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 3) Voice Controlled Ads -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/voice-controlled_ads.webp" alt="Voice-Controlled Advertisement Display">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Voice-Controlled Ads: continuous listening + demo fallback</h3>
+                        <p class="blog-meta">Internship • Python, SpeechRecognition, Flask</p>
+                        <p>
+                            Notes on handling voice commands reliably, switching ads in real time, and auto-detecting
+                            video folders.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 4) Smart Retail Face Recognition -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/face-recognition.jpg" alt="Smart Retail Face Recognition System">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Smart Retail Face Recognition: from detection to dashboard matching</h3>
+                        <p class="blog-meta">Internship • Face Detection/Recognition, Database, Dashboard</p>
+                        <p>
+                            Pipeline notes: detect faces, extract ID, match with database, and show “matched / no data”
+                            on the UI.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 5) Human Action Recognition -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/humanaction-reco.PNG" alt="Human Action Recognition (Image Processing)">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Human Action Recognition (Image Processing): modular pipeline notes</h3>
+                        <p class="blog-meta">Team Project • Python, Image Processing, MediaPipe</p>
+                        <p>
+                            Step-by-step notes: preprocessing, segmentation, feature extraction, and classification in a
+                            Python workflow.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- 6) YOLO / CV Notes (ties to cow behavior & CV work) -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="images/yolo-notes.jpg" alt="YOLO Training Notes">
+                    </div>
+                    <div class="blog-content">
+                        <h3>YOLO training checklist: dataset quality, overfitting, and evaluation</h3>
+                        <p class="blog-meta">Computer Vision • YOLO, OpenCV</p>
+                        <p>
+                            Practical tips I use: labeling consistency, augmentation, metrics (precision/recall), and
+                            debugging failure cases.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact-content single-column">
+                <div class="contact-info centered">
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>
+                            haenainglay20@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+66 655298515</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Chiang Mai, Thailand</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Availability: Flexible</p>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/sai-hae-naing-lay-784866288" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/AnitaMaxWynn901" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/layhn._0?igsh=dTlhbmsxeHliOXR4" target="_blank"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
